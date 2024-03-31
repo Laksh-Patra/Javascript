@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       var a=["sanjay","aman","rheman","rahul"];
+       document.write(a + "<br/><br/>");
+       
+    //    var b=a.includes("rahul"); //take case sensitive
+    //    document.write(b + "<br/><br/>");
+    
+    //Some() function -> It check only single value
+
+    var ages=[10,20,30,40,50];
+    
+    var c=ages.some(checkAdult);
+    document.write(c);
+        function checkAdult(ages){
+            return ages >18;
+        }
+
+    // Every() function -> It check all the values
+    var ages=[100,20,30,40,50];
+    
+    var c=ages.every(checkAdult);
+    document.write(c);
+        function checkAdult(ages){
+            return ages >18;
+        }
+    //find() function
+    var ages=[10,20,30,40,50];
+    
+    var c=ages.find(checkAdult);
+    document.write(c);
+        function checkAdult(ages){
+            return ages >18;
+        }
+
+        //find() index function
+        var ages=[10,20,30,40,50];
+    
+    var c=ages.findIndex(checkAdult);
+    document.write(c +"<br>");
+        function checkAdult(ages){
+            return ages >18;
+        }
+
+    //filter function
+
+    var ages=[10,20,3,40,50];
+    
+    var c=ages.filter(checkAdult);
+    document.write(c +"<br>");
+        function checkAdult(ages){
+            return ages >18;
+        }
+
+    // tostring() function
+    var ages=[10,20,3,40,50];
+    
+    var c=ages.toString();
+    document.write(c +"<br/>");
+    document.write(typeof(c));
+    var ages=[10,20,3,40,50];
+    
+    var c=ages.fill("JAI MATA DI");
+    document.write(c +"<br/>");
+    
+
+    </script>
+</body>
+</html>

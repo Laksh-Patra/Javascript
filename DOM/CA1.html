@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+        }
+        .heading-text{
+            width: 100vw;
+            height: 20vh;
+            color: white;
+            
+            
+            background-color:rgb(75, 137, 207);
+
+        }
+        .nav-bar li{
+            list-style: none;
+            display: inline-block;
+            padding: 0 20px;
+            
+        }
+        .nav-bar{
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 20px 50px;
+            box-shadow: 0 1px 8px #ddd;
+        }
+        .nav-bar a{
+            text-decoration: none;
+            color: #555;
+        }
+        .banner{
+            padding: 60px;
+            text-align: center;
+            background: #56a1e8;
+            color: white;
+            font-size: 40px;
+            
+        }
+        .container{
+            display: grid;
+        }
+                /* #header{
+            grid-area: header;
+        } */
+        .article1{
+            grid-area: article1;
+           
+
+        }
+         .article2{
+            grid-area: article2;
+            
+
+        }
+        
+        .article3{
+            grid-area: article3;
+            
+        }
+        .article4{
+            grid-area: article4;
+            
+        }
+        .footer{
+            grid-area: footer;
+            background-color:white;
+        }
+        .container{
+            
+            
+            display: grid;
+            grid-gap: 10px;
+            padding: 4px;
+            grid-template-areas:
+            'article1 article1 article1 article2 article2'
+            'article1 article1 article1 article2 article2'
+            'article1 article1 article1 article2 article2'
+            
+            'article3 article3 article3 article4 article4'
+            'article3 article3 article3 article4 article4'
+            'footer footer footer footer footer  ';
+        }
+       div{
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+       }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <nav >
+            <ul>
+                
+                <li><a href="#">Home</a</li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Gallery</a> </li>
+                <li><a href="#">Contact Us</a></li>
+              
+                
+            </ul>
+        </nav>
+        </div>
+        <div class="banner">
+            <h1>Laksh Patra</h1>
+            <p>First CA of Responsive</p>
+            <!-- <img src="/265_digital_marketing_facebook_cover_page_template.jpg" alt="banner"  width="100" > -->
+        </div>
+        <div class="container">
+            <div class="article1"><img src="/265_digital_marketing_facebook_cover_page_template.jpg" width="500"></div>
+            <div class="article2"><img src="/265_digital_marketing_facebook_cover_page_template.jpg" width="200"></div>
+            <div class="article3"> <img src="/265_digital_marketing_facebook_cover_page_template.jpg" width="200"></div>
+            <div class="article4"><img src="/265_digital_marketing_facebook_cover_page_template.jpg" width="200"></div>
+            <div class="footer">All right reserved @ Laksh Patra</div>
+        </div>
+</body>
+</html>

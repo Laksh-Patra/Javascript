@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //number ->return everything into sting
+        var a="99";
+        var num=Number(a);
+        document.write(num + 10 +"<br/>");
+
+        //parseInt -> return without decimal
+        var b="99.8877";
+        var num=parseInt(b);
+        document.write(num +"<br/>");
+        //parseFloat
+        var c="99.8877";
+        var num=parseFloat(c);
+        document.write(num);
+
+        //isFinite
+        var d=Infinity;
+        var num=isFinite(d);
+        document.write(num);
+
+        //isInteger
+
+        var a="Laksh";
+        var num=Number.isInteger(a);
+
+        document.write(num);
+
+        //tofixed
+
+        var z=99.8877;
+        var num=z.toFixed(2);
+        document.write(num);
+
+        //toPrecision
+
+        var z=99.8877;
+        var num=z.toPrecision(3);
+        document.write(num);
+
+
+
+    </script>
+</body>
+</html>

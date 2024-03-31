@@ -1,0 +1,10 @@
+var element;
+// document.querySelector("#text").style.border="5px dotted red";
+// element =document.querySelector("#text").style.border;
+// element=document.querySelector(".heading-text").className="abc";
+// element=document.querySelector(".abc").className;
+// element=document.querySelector(".heading-text").className;
+// document.querySelector(".heading-text").classList.add("abc");
+document.querySelector(".heading-text").classList.remove("abc");
+element=document.querySelector(".heading-text").classList;
+console.log(element);

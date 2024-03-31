@@ -1,0 +1,11 @@
+var element;
+// element=document.getElementById("text").innerText="Jai mata di";
+// element=document.getElementById("text").innerHTML="<p>Jai mata di</p>";
+// element=document.getElementsByClassName("title").innerHTML="<h2>Shinda singh</h2>";
+// element=document.getElementById("text").setAttribute("class","newclass");
+// element=document.getElementById("text").setAttribute("style","border:10px dotted green");
+// element=document.getElementById("text").getAttribute("class");
+// element=document.getElementById("text").attributes[1].value="newclass";
+// element=document.getElementById("text").getAttribute("class");
+// element=document.getElementById("text").removeAttribute("style");
+console.log(element);

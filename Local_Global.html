@@ -1,0 +1,17 @@
+<html>
+<body>
+<script>
+var myVar="global";
+
+
+function checkscope(){
+	var myVar="local";
+	document.write(myVar);
+}
+document.write(myVar);
+var result=checkscope();
+
+</script>
+
+</body>
+</html>

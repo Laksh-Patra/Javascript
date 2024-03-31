@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Length function
+
+        var str="Javascript is most important language";
+        var a=str.length;
+        document.write(a +"<br>");
+
+        //to lowercase to uppercase
+
+        var str="Javascript is most important language";
+        var b=str.toLowerCase();
+        document.write(b +"<br>");
+
+        var str="Javascript is most important language";
+        var c=str.toUpperCase();
+        document.write(c +"<br>");
+
+        //to includes
+
+        var str="Javascript is most important language";
+        var d=str.includes("Most"); //casesensitive
+        document.write(d +"<br>");
+
+        //startswith
+
+        var str="Javascript is most important language";
+        var e=str.startsWith("Javascript");
+        document.write(e +"<br>");
+
+        //endswith
+
+        var str="Javascript is most important language";
+        var f=str.endsWith("language");
+        document.write(f +"<br>");
+
+        //search
+
+        var str="Javascript is most important language";
+        var g=str.search("is");
+        document.write(g +"<br>");
+        //match
+
+        var str="Javascript is is most important language";
+        var i=str.match(/most/g);
+        document.write(i +"<br>");
+
+        //indexof
+
+        var str="Javascript is most important language";
+        var j=str.indexOf("is");
+        document.write(j +"<br>");
+
+        //lastindexof
+
+        var str="Javascript is most important language";
+        var k=str.lastIndexOf("important");
+        document.write(k +"<br>");
+
+        //replace
+        var str="Javascript is most important language";
+        var l=str.replace("Javascript","PHP");
+        document.write(l +"<br>");
+
+        //trim
+
+        var str="       Javascript is most important language   ";
+        var m=str.trim();
+        // document.write(str+"<br>");
+        // alert(m);
+        //charAt
+
+        var str="Javascript is most important language";
+        var n=str.charAt(4);
+        document.write(n +"<br>");
+
+        //charcodeAt
+
+        var str="Javascript is most important language";
+        var o=str.charCodeAt(1);
+        document.write(o +"<br>");
+
+        //fromCharCode
+
+        var p=String.fromCharCode(114);
+        document.write(p);
+
+        //concat
+
+        var str="Javascript is most important language";
+        var str2="Javascript is most important language";
+        var q=str.concat(str2);
+        document.write(q +"<br>");
+
+        //split
+
+        var str="Javascript is most important language";
+        var r=str.split("i");
+        document.write(r +"<br>");
+
+        //repeat
+
+        var str="Javascript is most important language";
+        var s=str.repeat(3);
+        document.write(s +"<br>");
+
+        //slice
+
+        var str="Javascript is most important language";
+        var t=str.slice(3,10);
+        document.write(t +"<br>");
+
+        //substr
+
+        var str="Javascript is most important language";
+        var u=str.substr(2,5);
+        document.write(u +"<br>");
+        //substring
+
+        var str="Javascript is most important language";
+        var v=str.substring(2,5);
+        document.write(v +"<br>");
+
+        //toString
+
+        var str=50;
+        var x=str.toString();
+        document.write(x +20);
+
+        //valueof
+
+        var str="Javascript is most important language";
+        var y=str.valueOf();
+        document.write(y +"<br>");
+
+
+    </script>
+</body>
+</html>

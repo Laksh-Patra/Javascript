@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var per=prompt("Enter your percentage");
+
+    switch(per){
+      case (per <= 100):
+            document.write("Grade A");
+            break;
+      case (per < 90 && per >= 80):
+            document.write("Grade B");
+            break;
+      case (per < 80 && per >= 70):
+            document.write("Grade C");
+            break;
+      case (per < 70 && per >= 60):
+            document.write("Grade D");
+            break;
+      case (per < 60):
+            document.write("Fail");
+            break;
+      default:
+            document.write("Enter a valid percentage (0-100)");
+    }
+  </script>
+</body>
+</html>

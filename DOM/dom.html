@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+        }
+        .heading-text{
+            width: 100vw;
+            height: 10vh;
+            color: white;
+            
+            
+            background-color:rgb(75, 137, 207);
+
+        }
+        .nav-bar li{
+            list-style: none;
+            display: inline-block;
+            padding: 0 20px;
+            
+        }
+        .nav-bar{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 20px 50px;
+            box-shadow: 0 1px 8px #ddd;
+        }
+        .nav-bar a{
+            text-decoration: none;
+            color: #555;
+        }
+        .nav-bar2{
+            padding: 20px 50px;
+        }
+        .nav-bar2 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        height: 300px;
+        background-color: #f1f1f1;
+        border: 1px solid black;
+        /* padding: 20px 50px; */
+        
+        }
+
+        .nav-bar2 li  a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+            padding: 30px;
+            
+        }
+       
+
+        .content{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+        .image-flower{
+            /* display: flex;
+            justify-content: space-between; */
+           
+           
+            position: relative;
+            left: 0px;
+            top: 20px;
+            z-index: -1;
+        }
+        #text .test{
+            color: yellow;
+            
+        }
+        #text{
+            font-size: 20px;
+            padding-left: 20px;
+            color: red;;
+            
+        }
+        @media only screen and (max-width: 890px) {
+        /* For mobile phones: */
+        
+            .heading-text{width:100%;text-align: center;}
+            .nav-bar{width:100%;}
+            .content{width:100%;flex-direction: column; gap: 10px; flex-wrap: nowrap;}
+            .text{
+            
+            gap: 3px ;
+          /* row-count: 2;} */
+            }
+        }
+        .abc{
+            color: red;
+        }
+        .xyz{
+            background-color: blue;
+        }
+
+    </style>
+     
+ 
+</head>
+<body>
+    <div class="heading-text">
+        
+            <h1>Laksh Patra</h1>
+        
+    </div>
+    <div class="nav-bar">
+        <nav >
+            <ul>
+                <li><a href="#">Home</a</li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Gallery</a> </li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="title">
+        <h2>This is an image</h2>
+    </div>
+   
+
+    
+    <div class="content">
+        
+        <div class="image-flower">
+            <img src="/flowerimage.webp" alt="flower" width="400" height="300" >
+        </div>
+        <div id="text" class="test xyz efg" style="border:1px solid rgb(25, 31, 197);">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptas dolor beatae, quam qui obcaecati laborum debitis unde voluptatem quibusdam tempora culpa est iste. Illo atque veniam distinctio odio repudiandae veritatis quidem, unde sint voluptates repellendus totam debitis dolorum dolores dolorem? Dolorum aliquam vitae, eos consectetur impedit itaque delectus veniam natus minima ex molestias! Maxime recusandae doloremque ipsa cum explicabo commodi deserunt in amet eaque corrupti? Earum reiciendis delectus provident dicta nobis nam excepturi atque vel facilis, illum consectetur sed ea laborum, blanditiis, odit similique voluptates fuga pariatur perspiciatis commodi? Provident quaerat fuga hic quos accusamus non quia ut eum earum ducimus voluptate impedit aliquam, deleniti perspiciatis eius molestiae dignissimos numquam dolorem quisquam. Deleniti dignissimos et, nobis dolor perferendis magnam? Atque autem quasi quidem suscipit, placeat doloribus veniam ipsum porro pariatur in minus, magni eaque alias? Laboriosam sed ipsum excepturi facere incidunt dicta, illo doloremque atque. Odio aperiam obcaecati at, eveniet nostrum aliquam delectus nisi sint consequuntur, rem fugiat totam? Asperiores doloribus inventore soluta quasi ad. Culpa, vitae architecto itaque ad, porro quibusdam sed dolore, magni facere dignissimos iure rerum reiciendis rem? Tempore voluptas eaque rem corrupti dolor non cum, sapiente accusantium eveniet numquam fugit totam excepturi esse. Ipsum, quidem?</p>
+
+        </div>
+        <div class="nav-bar2">
+            <ul>
+                <span>
+                <li><a href="#">Home</a</li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Gallery</a> </li>
+                <li><a href="#">Contact Us</a></li>
+                </span>
+                
+            </ul>
+
+
+        </div>
+    </div>
+    <!-- <script src="dom-main.js"></script> -->
+    <!-- <script src="dom-get-setmethods.js"></script> -->
+    <!-- <script src="dom-set.js"></script> -->
+  <!-- <script src="DOM-querySelector.js"></script>   -->
+  <!-- <script src="DOM-CSS-styling.js"></script> -->
+  <!-- <script src="DOM-event-listener.js"></script> -->
+  <script src="DOM-Classlist.js"></script>
+   
+</body>
+</html>
